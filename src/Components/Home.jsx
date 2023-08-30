@@ -44,7 +44,7 @@ const Home = () => {
                 <h1>EQ Beats IQ</h1></div>
             </div>
             <div className="col-md-4">
-                <p>People with high Emotional Intelligence(EQ) live more fullfilled lives.</p>
+                <p>People with high Emotional Intelligence(EQ) live more fullfilled lives. They tend to be happier and have healthier relationship</p>
             </div>
             <div className="col-md-4"></div>
         </div>

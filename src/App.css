@@ -7,3 +7,23 @@
 .title{
     font-weight: 500;
 }
+
+.title2{
+    font-weight: 450;
+    
+}
+.title3{
+    font-weight: 450;
+    font-size: 14px;
+    
+}
+
+.card-bg{
+    background-color: #92909063;
+}
+
+/* rotate card with 10deg anticlockwise on hover */
+.card-bg:hover{
+    transform: rotate(-10deg);
+    background-color: rgba(0, 0, 255, 0.644)
+}

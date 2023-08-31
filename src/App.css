@@ -30,7 +30,8 @@
 /* rotate card with 10deg anticlockwise on hover */
 .card-bg:hover{
     transform: rotate(-10deg);
-    background: rgba(0, 0, 255, 0.644)
+    background: rgb(68, 68, 255);
+    color:white
 }
 
 .bg-card2{
@@ -53,6 +54,7 @@
     max-height: 500px;
     overflow-y: scroll;
 }
+
 
 
 /* margin to scroll bar

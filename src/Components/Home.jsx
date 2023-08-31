@@ -7,6 +7,7 @@ import side from '../images/doodle.jpg'
 import one from '../images/one.png'
 import two from '../images/two.png'
 import three from '../images/three.png'
+import mobile from '../images/mobile.jpeg'
 
 const Home = () => {
   return (
@@ -41,7 +42,12 @@ const Home = () => {
 
               </div>
             </div>
-            <div className="col-md-6"></div>
+            <div className="col-md-6">
+              <div className="d-flex justify-content-center mt-4">
+              <img className='rounded-5' src={mobile} height={400} width={250} alt="" />
+              </div>
+             
+            </div>
            </div>
           </div>
         </div>
@@ -188,8 +194,8 @@ const Home = () => {
             <div className="col-md-4"> <p className='title4'>Let others anonymously answer the same questions about you</p></div>
             <div className="col-md-4"> <p className='title4'>Find out where you and others see things the same way - and where not</p></div>
            </div>
-<div className="container d-flex justify-content-center mt-5">
-<div className="card rounded-4 w-75 bg-white p-4" style={{border:'none'}}>
+<div className="container d-flex justify-content-center mt-5 mb-4">
+<div className="card rounded-4 w-75 bg-white p-4 mb-3" style={{border:'none'}}>
             <div className="d-flex">
               <button className="btn btn-primary" style={{marginLeft:'-30px'}}>You</button>
               <button className="btn btn-warning text-white" style={{marginLeft:'350px'}}>Anonymonos 2</button>
@@ -214,6 +220,23 @@ const Home = () => {
            </div>
           </div>
         </div>
+
+
+<div className="container mt-5 pt-5">
+  <div className="d-flex justify-content-center ">
+    <div className='' style={{textAlign:'center'}}>
+      <p className='title'>We take privacy seriously</p>
+      <h1>Before you get started</h1>
+      <div className='mx-5 px-5 '>
+      <p className='title px-5 mx-5'>"We won't share your answers with anyone (and wont't ever tell you which friends said what about you)"</p>
+      </div>
+      <p className='title'>With love, team ahead</p>
+      <button className='btn btn-dark rounded-5 px-3'>Start a Test </button>
+      <p>Take only 5 minutes</p>
+    </div>
+  </div>
+</div>
+
       </div>
 
       

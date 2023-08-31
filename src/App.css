@@ -20,17 +20,17 @@
 
 .title4{
     font-weight: 600;
-   align-items: center;
+   text-align: center;
 }
 
 .card-bg{
-    background-color: #92909063;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
 }
 
 /* rotate card with 10deg anticlockwise on hover */
 .card-bg:hover{
     transform: rotate(-10deg);
-    background-color: rgba(0, 0, 255, 0.644)
+    background: rgba(0, 0, 255, 0.644)
 }
 
 .bg-card2{

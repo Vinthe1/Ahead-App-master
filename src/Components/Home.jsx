@@ -2,6 +2,8 @@ import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import  { Navigation, Pagination,  Autoplay } from 'swiper/modules';
 import 'swiper/swiper-bundle.css';
+import back from '../images/card2.png'
+import side from '../images/doodle.jpg'
 
 const Home = () => {
   return (
@@ -118,12 +120,36 @@ const Home = () => {
         </div>
       </SwiperSlide>
       </Swiper>
+      <div className="container  mt-5  pt-5">
+      <div className="card rounded-4 bg-card2">
+          <div className="card-body">
+           <div className="row">
+            <div className="col-md-6">
+                <p className=' container m-5 p-5 mb-0 pb-0 title' >Build out of frustration</p>
+                <h1 className=' container m-5 p-5 mt-1 pt-1 mb-0 pb-0'>Meet the ahead app</h1>
+              <div className='d-flex container m-5 p-5 mt-2 pt-2'>
+                
+                <img className='rounded-circle' src={side} height={150} width={150} alt="" />
+                </div>
 
-        
+              </div>
+              <div className="col-md-6  p-5 mt-5 ">
+              <p className='title mt-5 p-4 pb-0'> A personalized pocket coach that provides bite-sized, science-driven tools to boost emotional intelligence.</p>
+              <p className='title p-4 pt-0'> Think of it as a pocket cheerleader towards a better, more fulfilling</p>
+            </div>
+            </div>
+           
+           </div>
+          </div>
+        </div>
+      </div>
+
+      
+
         </div>
 
         
-    </div>
+   
   )
 }
 

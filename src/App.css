@@ -27,3 +27,8 @@
     transform: rotate(-10deg);
     background-color: rgba(0, 0, 255, 0.644)
 }
+
+.bg-card2{
+    background-image: url('./images/card2.png');
+    background-size: cover;
+}

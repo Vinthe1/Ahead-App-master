@@ -8,6 +8,7 @@ import one from '../images/one.png'
 import two from '../images/two.png'
 import three from '../images/three.png'
 import mobile from '../images/mobile.jpeg'
+import nav from '../images/nav.png'
 
 const Home = () => {
   return (
@@ -211,7 +212,7 @@ const Home = () => {
             </div>
             <div className="d-flex ">
               <button className="btn btn-info text-white" style={{marginLeft:'170px'}}>Anonymonos 1</button>
-              <button className="btn btn-success text-white" style={{marginLeft:'250px'}}>Anonymonos 4</button>
+              <button className="btn btn-success text-white" style={{marginLeft:'250px'}}>Anonymonos 3</button>
             </div>
            </div>
 </div>
@@ -266,7 +267,7 @@ const Home = () => {
               </div>
               <div className="col-md-5 ">
                 <div className='d-flex '>
-              <h2 className='p-5 pb-1 fw-bold text-primary mb-1 ms-auto'>ahead</h2></div>
+              <h2 className='p-5 pb-1 fw-bold  mb-1 ms-auto' style={{color:'blue'}}>ahead</h2></div>
               <div className='ahead px-5'>
               <div className="card ms-auto mt-3 rounded-4" style={{width:'270px' , border:'none'}}>
           
@@ -318,9 +319,89 @@ const Home = () => {
             </div>
             </div>
 
-            <div className="container mt-5 pt-5 mb-5">
+            <div className="container mt-2 pt-5 mb-3">
         <h1 className='fw-bold mx-5'>Open Vacancies</h1>
+        <div className="container px-4 mt-4">
+        <div className="row">
+          <div className="col-md-4">
+             <div className="card rounded-4 card-last">
+                <div className="card-body">
+                  <h5 className='fw-bold mx-3'>Senior Full-Stack Engineer</h5>
+                 <ul>
+                  <li>Full time position</li>
+                  <li>Berlin or remote</li>
+                  <li>€65-85k, 0.5-1.50% equity share options</li>
+                 </ul>
+                </div>
+             </div>
+          </div>
+          <div className="col-md-4">
+          <div className="card rounded-4 card-last">
+                <div className="card-body">
+                  <h5 className='fw-bold mx-3'>Senior Designer</h5>
+                 <ul>
+                  <li>Full time position</li>
+                  <li>Berlin or remote</li>
+                  <li>€40-55k, 0.25-0.50% equity share options</li>
+                 </ul>
+                </div>
+             </div>
+          </div>
+          <div className="col-md-4">
+          <div className="card rounded-4 card-last">
+                <div className="card-body">
+                  <h5 className='fw-bold mx-3'>Superstar Intern</h5>
+                 <ul>
+                  <li>Full time position</li>
+                  <li>Berlin or remote</li>
+                  <li>€20-24k, 0.5-1.50% equity share options</li>
+                 </ul>
+                </div>
+             </div>
+          </div>
+        </div>
+        </div>
 </div>
+
+<div className="container mt-2 pt-5 mb-5">
+  <hr />
+  <div className="d-flex justify-content-center">
+    <img src={nav} alt="" width={90} height={90}/>
+    
+  </div>
+  <div className="d-flex justify-content-center">
+    <h3 style={{color:'blue', marginTop:'-15px'}} className=''>ahead</h3>
+    </div>
+    <div className='d-flex justify-content-center my-3'>
+      <div className='d-flex' style={{marginLeft:'-50px'}}>
+      <i class="fa-solid fa-location-dot mt-1 mx-1"></i>
+      <p>AuguststraBe 26, 10117 Berlin</p>
+      </div>
+      <div className="d-flex " style={{marginLeft:'90px'}}>
+      <i class="fa-solid fa-envelope mt-1 mx-1"></i>
+      <p>hi@ahead-app.com</p>
+      </div>
+    </div>
+    
+    <div className="d-flex justify-content-center">
+    <button className='btn btn-dark py-0' style={{fontSize:'10px'}}>
+                    <div className="d-flex">
+                    <i class="fa-brands fa-apple fa-3x"> </i>
+                    <div className='mx-1'>
+                Download on the
+                <div className='fs-6 fw-1' style={{marginTop:'-8px'}}>  App Store </div></div>
+                   
+                    </div>
+                    
+                  </button>
+      </div>
+
+      {/* copyright */}
+      <div className="d-flex justify-content-center mt-4">
+        <p className='text-center text-muted'>© 2022 Ahead app. All rights reserved.</p>
+        </div>
+</div>
+
 
       </div>
 

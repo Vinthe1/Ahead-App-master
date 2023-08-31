@@ -2,13 +2,16 @@ import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import  { Navigation, Pagination,  Autoplay } from 'swiper/modules';
 import 'swiper/swiper-bundle.css';
-import back from '../images/card2.png'
+
 import side from '../images/doodle.jpg'
+import one from '../images/one.png'
+import two from '../images/two.png'
+import three from '../images/three.png'
 
 const Home = () => {
   return (
     <div className='container '>
-        <div className="card rounded-4 bg-info ">
+        <div className="card rounded-4 bg-card1 ">
           <div className="card-body">
            <div className="row">
             <div className="col-md-6">
@@ -139,6 +142,75 @@ const Home = () => {
             </div>
             </div>
            
+           </div>
+          </div>
+        </div>
+
+        
+        <div className="row mt-5 pt-5">
+            <div className="col-md-4">
+                <div className="d-flex justify-content-center align-items-center">
+                <h2 className='fw-2 px-5'>Be the best you with EQ</h2></div>
+            </div>
+            <div className="col-md-4">
+                <div className="container">
+                <p className='title mx-2'>Not having your own emotions under control might be holding you back.</p>
+                </div>
+                
+            </div>
+            <div className="col-md-4">
+            <div className="container">
+                <p className='title mx-3'>Additionally not understanding those of others stops you from being parent,friend you can be.</p>
+                </div>
+            </div>
+        </div>
+
+        <div className="container  mt-5  pt-5">
+      <div className="card rounded-4 bg-card3" style={{border:'none'}}>
+          <div className="card-body ">
+            
+          <p className='title text-center p-5 pb-0 '>Let your friends, family and co-workers(anonymously) rate your social skills</p>
+           <h1 className='text-center'>Ever Wondered what others think of you?</h1>
+           <div className='p-5 pb-0 mx-5 mb-0'>
+            <div className="d-flex mx-4 px-2">
+              <img className='rounded-circle ' src={one} width={50} height={50} alt="" />
+              <p className='text-black fw-bolder mt-2'>- - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+              <img className='rounded-circle ' src={two} width={50} height={50} alt="" />
+              <p className='text-black fw-bolder mt-2'>- - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+              <img className='rounded-circle ' src={three} width={50} height={50} alt="" />
+
+            </div>
+            
+
+           </div>
+           <div className="row container px-4 mx-3  ">
+            <div className="col-md-4"> <p className='title4'>Answer Questions on your social skills</p></div>
+            <div className="col-md-4"> <p className='title4'>Let others anonymously answer the same questions about you</p></div>
+            <div className="col-md-4"> <p className='title4'>Find out where you and others see things the same way - and where not</p></div>
+           </div>
+<div className="container d-flex justify-content-center mt-5">
+<div className="card rounded-4 w-75 bg-white p-4" style={{border:'none'}}>
+            <div className="d-flex">
+              <button className="btn btn-primary" style={{marginLeft:'-30px'}}>You</button>
+              <button className="btn btn-warning text-white" style={{marginLeft:'350px'}}>Anonymonos 2</button>
+            </div>
+            <div className="d-flex mt-2">
+            <i class="fa-solid fa-circle"  style={{color:'blue'}}></i>
+            <p className='text-info' style={{marginTop:'-10px'}}>_________________________</p>
+            <i class="fa-solid fa-circle" style={{color:'skyblue'}}></i>
+            <p className='text-info' style={{marginTop:'-10px'}}>___________________________</p>
+            <i class="fa-solid fa-circle" style={{color:'yellow'}}></i>
+            <p className='text-info' style={{marginTop:'-10px'}}>_________________________________________</p>
+            <i class="fa-solid fa-circle" style={{color:'lightgreen'}}></i>
+            </div>
+            <div className="d-flex ">
+              <button className="btn btn-info text-white" style={{marginLeft:'170px'}}>Anonymonos 1</button>
+              <button className="btn btn-success text-white" style={{marginLeft:'250px'}}>Anonymonos 4</button>
+            </div>
+           </div>
+</div>
+           
+
            </div>
           </div>
         </div>

@@ -222,7 +222,7 @@ const Home = () => {
         </div>
 
 
-<div className="container mt-5 pt-5">
+      <div className="container mt-5 pt-5">
   <div className="d-flex justify-content-center ">
     <div className='' style={{textAlign:'center'}}>
       <p className='title'>We take privacy seriously</p>
@@ -235,10 +235,96 @@ const Home = () => {
       <p>Take only 5 minutes</p>
     </div>
   </div>
+      </div>
+
+      <div className="container  mt-5  pt-5">
+      <div className="card rounded-4 bg-card3" style={{border:'none'}}>
+          <div className="card-body ">
+            <div className="row">
+              <div className="col-md-7">
+                <h2 className='m-5 mb-4 mt-5 pb-1 fw-bold'>Work with us</h2>
+               <div>
+                <div className="card m-5 p-4 pt-3  mt-0 mb-5 " style={{border:'none'}}>
+                  
+                  <div className="card-body ">
+                    <h4>About</h4>
+                    At ahead our goal is to make self-improvement fun and lasting. We know there's a way to make it work and that's what aHead is all about!
+                  </div>
+                
+                  <div className="card " style={{border:'none', backgroundColor:'peachpuff'}}>
+                  
+                  <div className="card-body ">
+                    <h4>Product</h4>
+                   Sure you could spend ages reading books or sitting in seminars on how to become a better spouse, parent, or manager- like we did...
+                  </div>
+              
+                  </div>
+                  
+                </div>
+                
+               </div>
+              </div>
+              <div className="col-md-5 ">
+                <div className='d-flex '>
+              <h2 className='p-5 pb-1 fw-bold text-primary mb-1 ms-auto'>ahead</h2></div>
+              <div className='ahead px-5'>
+              <div className="card ms-auto mt-3 rounded-4" style={{width:'270px' , border:'none'}}>
+          
+         <div className="card-body p-4">
+          <h6 className="card-title">Power through, even when the going gets tough</h6>
+          <p className="card-text title3">We help you spot and work around whatever stands in the way, be it bad habits, fears, etc</p>
+          </div>
+      </div>
+              <div className="card ms-auto  mt-3 rounded-4" style={{width:'270px' , border:'none'}}>
+          
+         <div className="card-body p-4">
+          <h6 className="card-title">Learn more about who you are and where you want to go</h6>
+          <p className="card-text title3">We ask the right questions to help you better understand why you do things the way you do. </p>
+          </div>
+      </div>
+              <div className="card ms-auto  mt-3 rounded-4" style={{width:'270px' , border:'none'}}>
+          
+         <div className="card-body p-4">
+          <h6 className="card-title">Play and grow together with others on the same journey</h6>
+          <p className="card-text title3">Ahead feels like a game, not like a chore. See yourself grow every day towards achieving your goals!</p>
+          </div>
+      </div>
+              <div className="card ms-auto  mt-3 rounded-4" style={{width:'270px' , border:'none'}}>
+          
+         <div className="card-body p-4">
+          <h6 className="card-title">Master how to make it happen in real life</h6>
+          <p className="card-text title3">We support you towards ninja-level skills with sleek tools such as dry-rins, quizzes, and flashcards</p>
+          </div>
+      </div>
+              <div className="card ms-auto  mt-3 rounded-4" style={{width:'270px' , border:'none'}}>
+          
+         <div className="card-body p-4">
+          <h6 className="card-title">Learn about Practical skills that you can actually use in real life</h6>
+          <p className="card-text title3">We teach you smart psychological techniques and habit forming strategies that are easy to apply.</p>
+          </div>
+      </div>
+              <div className="card ms-auto  mt-3 rounded-4" style={{width:'270px' , border:'none'}}>
+          
+         <div className="card-body p-4">
+          <h6 className="card-title">Get support that's made for your needs</h6>
+          <p className="card-text title3">We build your personal roadmap of lessons and actions towards your goals.</p>
+          </div>
+      </div>
+      </div>
+              </div>
+             
+            </div>
+            </div>
+            </div>
+            </div>
+
+            <div className="container mt-5 pt-5 mb-5">
+        <h1 className='fw-bold mx-5'>Open Vacancies</h1>
 </div>
 
       </div>
 
+     
       
 
         </div>

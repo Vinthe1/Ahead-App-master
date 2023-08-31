@@ -38,6 +38,8 @@
     border: none;
 }
 
+
+
 .bg-card3{
     background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
 }
@@ -46,3 +48,28 @@
     background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
     border: none;
 }
+
+.ahead{
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+
+/* margin to scroll bar
+ */
+ 
+
+.ahead::-webkit-scrollbar {
+    width: 5px; 
+               /* width of the entire scrollbar */
+  }
+  
+  .ahead::-webkit-scrollbar-track {
+    background: white;        /* color of the tracking area */
+  }
+  
+  .ahead::-webkit-scrollbar-thumb {
+    background-color: skyblue;    /* color of the scroll thumb */
+    border-radius: 10px;       /* roundness of the scroll thumb */
+    /* border: 3px solid orange;  creates padding around scroll thumb */
+  }
